@@ -1,6 +1,10 @@
 # Preview Link
 https://rahul9695.github.io/Intermediate-Frontend-Projects/Amazon-Homepage-UI/index.html
 
+## UI Screenshot
+
+![Amazon-UI-Explanation](https://github.com/rahul9695/Intermediate-Frontend-Projects/assets/120627949/83f6904b-761c-412c-87f6-18f16c2c778f)
+
 ## HTML Code Explanation 
 - `<!DOCTYPE html>`: Declares the document type and HTML version as HTML5.
 - `<html lang="en">`: Defines the HTML document, specifying the language as English.
