@@ -96,6 +96,7 @@ a{
 
 .cart {
     display: flex;
+    margin-top: 5px;
 }
 
 .cart p {
