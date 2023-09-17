@@ -2,6 +2,10 @@
 
 https://rahul9695.github.io/Intermediate-Frontend-Projects/HTML-CSS/Grid-Template/index.html
 
+## UI-Screenshot
+
+![grid-template-UI](https://github.com/rahul9695/Intermediate-Frontend-Projects/assets/120627949/9c7188a6-13e3-496a-a9aa-d8358a5b23c5)
+
 ## HTML Code Explanation
 
 - `<!DOCTYPE html>`: Declares the document type and HTML version as HTML5.
