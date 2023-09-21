@@ -1,6 +1,6 @@
 # Preview Link
 
-https://rahul9695.github.io/Intermediate-Frontend-Projects/HTML-CSS/CGrid-Magazine/index.html
+https://rahul9695.github.io/Intermediate-Frontend-Projects/HTML-CSS/Grid-Magazine/index.html
 
 ## HTML Code Explanation:
 
