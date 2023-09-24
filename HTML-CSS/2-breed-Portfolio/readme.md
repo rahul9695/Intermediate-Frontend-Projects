@@ -5,8 +5,8 @@ https://rahul9695.github.io/Intermediate-Frontend-Projects/HTML-CSS/2-breed-Port
 HTML Explanation:
 - `<html>`: Defines the beginning of an HTML document.
 - `<head>`: Contains metadata and links to external resources like stylesheets.
-- <title>`: Sets the title of the web page, which appears in the browser's title bar or tab.
-- <link rel="stylesheet">`: Links an external CSS stylesheet to the HTML document.
+- `<title>`: Sets the title of the web page, which appears in the browser's title bar or tab.
+- `<link rel="stylesheet">`: Links an external CSS stylesheet to the HTML document.
 - `<body>`: Contains the visible content of the web page.
 - `<div>`: A container or division used to group and style content.
 CSS Explanation:
@@ -24,5 +24,5 @@ CSS Explanation:
 - `line-height`: Sets the space between lines of text.
 - `text-decoration`: Adds visual effects to text, like underlines.
 - `list-style`: Styles list items, often used with <li> elements.
-- 
+
 This summary covers the most important aspects of the HTML and CSS code of 2-breed project.
