@@ -1,0 +1,684 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.top-section-wrapper {
+    width: 100%;
+    /* height: 100vh; */
+    float: left;
+    background: #f9f7db url("https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/bodyBg.jpg") repeat-x;
+}
+
+.top-section-content {
+    width: 999px;
+    /* height: 100vh;    */
+    margin-inline: auto;
+    /* background-color: red; */
+}
+
+.logo-panel {
+    width: 75px;
+    height: 740px;
+    float: left;
+    /* text-indent: -9999px; */
+    background: url(https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/globalpic.jpg) no-repeat;
+}
+
+.about-panel {
+    width: 216px;
+    height: 715px;
+    float: left;
+    background:#cd4007 url(https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/globalpic.jpg) no-repeat -77px -494px;
+    position: relative;
+}
+
+.about-home-link {
+    width: 47px;
+    /* height: 110px; */
+    background-color: rgb(57, 7, 7);
+    border-radius: 0 0 0 5px;
+    /* float: left; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    gap: 5px;
+    padding: 10px 5px;
+    transition: .3s ease;
+}
+
+.about-home-link:hover{
+    transform: scale(1.1);
+}
+.about-home-link a {
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f4efaf;
+}
+
+.about-panel h2{
+    width: 190px;
+    margin: 299px 0 0 0;
+    padding: 0 0 0 24px;
+    font-family: Arial;
+    font-size: 26px;
+    color: #ffffff;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.about-panel h3 {
+    width: 190px;
+    margin: 8px 0 0 0;
+    padding: 0 0 0 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #ffe996;
+    line-height: 19px;
+    font-weight: bold;
+    /* float: left; */
+}
+
+.about-panel p {
+    width: 190px;
+    margin: 20px 0 0 0;
+    padding: 0 0 0 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #f8d55e;
+    line-height: 19px;
+    /* float: left; */
+}
+
+.about-panel p a {
+    color: #f8d85e;
+    background: #9f3105;
+    text-decoration: none;
+}
+
+.about-panel p a:hover {
+    background-color: black;
+}
+
+.read {
+    margin: 0 0 0 110px;
+    padding: 5px;
+    display: inline-block;
+    background-color: rgb(57, 7, 7);
+    border-radius: 5px;
+    height: 30px;
+}
+
+.read a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #f4efaf;
+    text-decoration: none;
+    margin-block: auto;
+    margin: 5px;
+    transition: .3s ease;
+}
+
+.read:hover a {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.event-panel {
+    width: 216px;
+    height: 715px;
+    float: left;
+    border-left: #f3f1d2 solid 1px;
+    background: #9fb31a url(https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/globalpic.jpg) no-repeat -294px -494px;
+    position: relative;
+}
+
+.event-text {
+    margin: 299px 0 0 0;
+    width: 190px;
+    padding-left: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.event-text h2 {
+    font-size: 26px;
+    color: #ffffff;
+    /* line-height: 30px; */
+    font-weight: normal;
+}
+
+.event-text h3 {
+    font-size: 12px;
+    color: #ffe996;
+    line-height: 19px;
+    font-weight: bold;
+}
+
+.event-text p {
+    font-size: 12px;
+    color: #000000;
+    line-height: 19px;
+}
+
+.event-text p a {
+    color: #ecf7b9;
+    background-color: #5a764a;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.event-text p a:hover {
+    background-color: black;
+}
+
+.event-text .des-heading {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.event-text .event-btn {
+    padding: 5px;
+    height: 30px;
+    background-color: rgb(57, 7, 7);
+    border-radius: 5px;
+    width: max-content;
+    margin-left: 85px;
+}
+
+.event-btn a {
+    font-size: 12px;
+    color: #f4efaf;
+    text-decoration: none;
+    margin: 5px;    
+    transition: .3s ease;
+}
+
+.event-btn:hover {
+    /* background-color: transparent; */
+    border: 1px solid black;
+}
+.event-btn:hover a{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+/* right panel  */
+.right-panel {
+    padding-left: 20px;
+    float: left;
+    width: 450px;
+}
+
+.menu {
+    width: 210px;
+    margin: 22px 0 0 0;
+    padding: 0 34px 0 0;
+    float: left;
+}
+
+.menu ul {
+    width: 210px;
+    float: left;
+    display: block;
+}
+
+.menu ul li {
+    width: 210px;
+    list-style: none;
+    float: left;
+    display: block;
+}
+
+.menu ul li a {
+    float: left;
+    width: 176px;
+    height: 24px;
+    padding: 0 0 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #636038;
+    line-height: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: #b1ae7e dotted 1px;
+    background: url(https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/liststyle.jpg) no-repeat 0 5.5px;
+}
+
+.menu ul li a:hover {
+    color: #43973d;
+}
+
+.addBlock {
+    width: 171px;
+    height: 195px;
+    margin: 22px 0 0 0;
+    float: left;
+    background: url(https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/globalpic.jpg) no-repeat -337px -110px;
+}
+
+.right-panel h2 {
+    width: 390px;
+    height: 44px;
+    margin: 29px 0 0 0;
+    padding: 0 0 0 57px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    color: #cb3e07;
+    line-height: 40px;
+    font-weight: normal;
+    background: url(https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/globalpic.jpg) no-repeat -467px -308px;
+}
+
+.additional-links {
+    width: 450px;
+    float: left;
+}
+
+.additional-links ul {
+    width: 450px;
+    margin: 12px 0 0 0;
+    float: left;
+    display: block;
+}
+
+.additional-links ul li {
+    width: 420px;
+    float: left;
+    display: block;
+}
+
+.additional-links ul li a {
+    width: 371px;
+    height: 27px;
+    margin: 3px 0 0 0;
+    padding: 0 0 0 27px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #3b3a2b;
+    line-height: 25px;
+    text-decoration: none;
+    background: url(https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/globalpic.jpg) no-repeat -75px -83px;
+}
+
+.additional-links ul li a:hover {
+    color: #43973d;
+}
+
+.icon-links {
+    width: 450px;
+    height: 101px;
+    margin: 25px 0 0 0;
+    float: left;
+}
+
+.icon-links .img-container {
+    width: 127px;
+    height: 100px;
+    padding: 50px 0 0 49px;
+    float: left;
+    font-family: Arial;
+    font-size: 10px;
+    color: #a8a8a8;
+    line-height: 14px;
+    text-decoration: none;
+}
+.icon-links .ideas {
+    background: url(https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/globalpic.jpg) no-repeat -77px -392px;
+}
+
+.icon-links .signup {
+    background: url(https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/globalpic.jpg) no-repeat -204px -392px;
+}
+
+.icon-links .blog {
+    background: url(https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/globalpic.jpg) no-repeat -331px -392px;
+}
+
+.icon-links .blank {
+    width: 9px;
+    height: 100px;
+    float: left;
+}
+
+.news-letter {
+    width: 400px;
+    height: 81px;
+    margin: 25px 0 0 0;
+    padding: 10px 0 0 121px;
+    float: left;
+    background: url(https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/globalpic.jpg) no-repeat -75px 0;
+}
+
+.news-letter h3 {
+    width: max-content;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #212121;
+    line-height: 22px;
+}
+
+.news-letter input {
+    width: 206px;
+    height: 22px;
+    margin: 5px 0 0 0;
+    padding: 3px 0 0 0;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #212121;
+    line-height: 14px;
+}
+
+.news-letter a {
+    width: 41px;
+    height: 23px;
+    margin: 4px 0 0 8px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #ffffff;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    background: url(https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/globalpic.jpg) no-repeat -75px -226px;
+}
+
+.middle-wrap {
+    width: 100%;
+    float: left;
+    background: #e9e6c3 url(https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/middleBg.jpg) repeat-x;
+}
+
+.middle-panel {
+    width: 999px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.middle-panel .middle-left {
+    width: 520px;
+    padding: 0 31px 34px 26px;
+    float: left;
+}
+
+.middle-panel .middle-left h2 {
+    width: 423px;
+    height: 38px;
+    margin: 24px 0 0 0;
+    padding: 0 0 0 50px;
+    float: left;
+    font-size: 34px;
+    color: #1d1d1d;
+    line-height: 38px;
+    font-weight: normal;
+    background: url(https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/globalpic.jpg) no-repeat -474px -357px;
+}
+
+.middle-panel .middle-left p {
+    width: 470px;
+    margin: 9px 0 0 0;
+    float: left;
+    font-size: 12px;
+    color: #575433;
+    line-height: 19px;
+}
+
+.middle-panel .middle-left p span {
+    font-weight: bold;
+    color: #8da00d;
+}
+
+.middle-panel .middle-left a {
+    width: 62px;
+    height: 23px;
+    margin: 7px 0 0 0;
+    float: right;
+    font-size: 11px;
+    color: #ffffff;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    background: url(https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/globalpic.jpg) no-repeat -117px -226px;
+}
+
+.login-panel {
+    width: 202px;
+    height: 184px;
+    margin: 19px 0 0 0;
+    float: left;
+    border: #d7d3aa solid 1px;
+    background: #f1eed0;
+    /* margin-inline: auto; */
+}
+
+.login-panel h2 {
+    width: 200px;
+    height: 34px;
+    padding: 0 0 0 33px;
+    float: left;
+    font-size: 18px;
+    color: #212121;
+    line-height: 30px;
+    font-weight: normal;
+    background: #ffffff url(https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/globalpic.jpg) no-repeat -483px -399px;
+}
+
+.login-panel h3 {
+    width: 168px;
+    margin: 8px 0 0 0;
+    padding: 0 17px 0 17px;
+    float: left;
+    font-size: 10px;
+    color: #1d1d1d;
+    line-height: 14px;
+    font-weight: normal;
+}
+
+.login-panel .blank {
+    width: 17px;
+    height: 10px;
+    float: left;
+}
+
+.login-panel input {
+    width: 167px;
+    height: 25px;
+    margin: 3px 0 0 15px;
+    padding: 3px 0 0 0;
+    float: left;
+    font-size: 10px;
+    color: #212121;
+    line-height: 14px;
+}
+
+.login-panel p {
+    width: 141px;
+    margin: 7px 0 0 0;
+    padding: 0 0 0 17px;
+    float: left;
+}
+
+.login-panel p a {
+    font-size: 12px;
+    color: #9fb31a;
+    font-weight: bold;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.login-panel .login {
+    width: 41px;
+    height: 23px;
+    margin: 6px 0 0 0;
+    float: left;
+    font-size: 11px;
+    color: #ffffff;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    background: url(https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/globalpic.jpg) no-repeat -180px -226px;
+}
+
+.gap {
+    width: 19px;
+    height: 10px;
+    float: left;
+}
+
+.contact {
+    width: 175px;
+    height: 107px;
+    margin: 21px 0 0 0;
+    float: left;
+    background: url(https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/globalpic.jpg) no-repeat -75px -111px;
+}
+
+.contact p {
+    font-size: 26px;
+    color: #252525;
+    line-height: 30px;
+    margin: 10px 0 0 0;
+    padding: 0 0 0 28px;
+}
+
+.foot-wrap {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 0 23px 0;
+    float: left;
+    background: url(https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/footbg.jpg) repeat-x;
+}
+
+.foot-panel {
+    width: 928px;
+    margin: 0 auto;
+}
+
+.foot-nav {
+    width: 928px;
+    margin: 25px 0 0 0;
+    float: left;
+}
+
+.foot-nav ul {
+    width: 655px;
+    margin: 0 auto;
+    display: block;
+}
+
+.foot-nav ul li {
+    width: auto;
+    float: left;
+    display: block;
+}
+
+.foot-nav ul li a {
+    font-size: 11px;
+    color: #d5d5d5;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+.foot-nav ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.foot-nav ul li .blank {
+    width: auto;
+    margin: 3px 0 0 0;
+    padding: 0 7px 0 7px;
+    float: left;
+    font-size: 11px;
+    color: #d5d5d5;
+    line-height: 15px;
+}
+
+.copyright {
+    width: 928px;
+    margin: 8px 0 0 0;
+    float: left;
+    font-size: 10px;
+    color: #9fb31a;
+    line-height: 14px;
+    text-align: center;
+}
+
+.foot-panel p {
+    width: 928px;
+    margin: 7px 0 0 0;
+    float: left;
+    font-size: 12px;
+    color: #e9e6c3;
+    line-height: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.foot-panel p a {
+    color: white;
+    background: #252525;
+    text-decoration: none;
+}
+
+.foot-panel p a:hover {
+    text-decoration: underline;
+    color: rgb(154, 254, 5);
+}
+
+.validation {
+    width: 928px;
+    margin: 11px 0 0 0;
+    float: left;
+}
+
+.validation ul {
+    width: 132px;
+    margin: 0 auto;
+    display: block;
+}
+
+.validation ul li {
+    width: auto;
+    float: left;
+    display: block;
+}
+
+.validation ul li a {
+    width: 62px;
+    height: 20px;
+    font-size: 11px;
+    color: #ffffff;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    display: block;
+    background: url(https://priyanshu-240499.github.io/Assignments-CSS/2-breed/images/globalpic.jpg) no-repeat -222px -226px;
+    transition: .3s ease;
+}
+
+.validation ul li a:hover {
+    transform: scale(1.1);
+}
+
+.validation ul li .blank {
+    width: 7px;
+    height: 10px;
+    float: left;
+}
