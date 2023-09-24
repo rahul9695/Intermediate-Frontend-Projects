@@ -2,14 +2,17 @@
 
 https://rahul9695.github.io/Intermediate-Frontend-Projects/HTML-CSS/2-breed-Portfolio/index.html
 
-HTML Explanation:
+## HTML Explanation:
+
 - `<html>`: Defines the beginning of an HTML document.
 - `<head>`: Contains metadata and links to external resources like stylesheets.
 - `<title>`: Sets the title of the web page, which appears in the browser's title bar or tab.
 - `<link rel="stylesheet">`: Links an external CSS stylesheet to the HTML document.
 - `<body>`: Contains the visible content of the web page.
 - `<div>`: A container or division used to group and style content.
-CSS Explanation:
+ 
+## CSS Explanation:
+
 - `*`: Selects all elements on the page.
 - margin, padding, box-sizing: CSS properties used for element spacing and layout.
 - `.class-name`: Selects elements with a specific class name.
