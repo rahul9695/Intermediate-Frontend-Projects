@@ -24,4 +24,5 @@ CSS Explanation:
 - `line-height`: Sets the space between lines of text.
 - `text-decoration`: Adds visual effects to text, like underlines.
 - `list-style`: Styles list items, often used with `<li>` elements.
+  
 This summary covers the most important aspects of the HTML and CSS code of 2-breed project.
