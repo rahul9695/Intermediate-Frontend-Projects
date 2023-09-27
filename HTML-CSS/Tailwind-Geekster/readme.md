@@ -1,5 +1,7 @@
 # Preview Link
+https://rahul9695.github.io/Intermediate-Frontend-Projects/HTML-CSS/Tailwind-Geekster/index.html
 
+## HTML and CSS(Tailwind) code Overview
 
 1. `<html>`
 - Tag: Defines the root element of an HTML document.
